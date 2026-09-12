@@ -136,6 +136,7 @@ export const QuizResultsPage: React.FC = () => {
               <img
                 src={topMatch.game.coverImage}
                 alt={topMatch.game.title}
+                referrerPolicy="no-referrer"
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0b0f17] via-transparent to-transparent opacity-60" />

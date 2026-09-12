@@ -213,6 +213,7 @@ export const Navbar: React.FC = () => {
                       <img
                         src={g.coverImage}
                         alt={g.title}
+                        referrerPolicy="no-referrer"
                         className="h-8 w-8 rounded-xs object-cover shrink-0"
                       />
                       <div className="flex-1 min-w-0">

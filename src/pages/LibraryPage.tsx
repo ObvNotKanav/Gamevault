@@ -207,6 +207,7 @@ export const LibraryPage: React.FC = () => {
                 <img
                   src={item.game.coverImage}
                   alt={item.game.title}
+                  referrerPolicy="no-referrer"
                   className="h-16 w-16 sm:h-20 sm:w-20 rounded-md object-cover shrink-0 cursor-pointer"
                   onClick={() => navigateTo('game-detail', item.game.id)}
                 />

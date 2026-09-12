@@ -122,7 +122,7 @@ export const ComparePage: React.FC = () => {
                   className="w-full flex items-center justify-between p-2 rounded-sm border border-slate-800 bg-[#1c2436] hover:border-cyan-500/50 text-left transition-colors"
                 >
                   <div className="flex items-center gap-2.5">
-                    <img src={game.coverImage} alt={game.title} className="h-10 w-10 rounded-xs object-cover" />
+                    <img src={game.coverImage} alt={game.title} referrerPolicy="no-referrer" className="h-10 w-10 rounded-xs object-cover" />
                     <div>
                       <h4 className="text-xs font-bold text-white">{game.title}</h4>
                       <p className="text-[10px] text-slate-400">{game.genres.slice(0, 2).join(', ')}</p>
@@ -181,7 +181,7 @@ export const ComparePage: React.FC = () => {
                 {/* Header info & remove button */}
                 <div className="space-y-4">
                   <div className="relative aspect-16/10 rounded-md overflow-hidden bg-slate-950 border border-slate-700">
-                    <img src={game.coverImage} alt={game.title} className="h-full w-full object-cover" />
+                    <img src={game.coverImage} alt={game.title} referrerPolicy="no-referrer" className="h-full w-full object-cover" />
                     <button
                       type="button"
                       onClick={() => removeFromComparison(game.id)}

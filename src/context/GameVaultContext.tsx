@@ -61,13 +61,27 @@ export const GameVaultProvider: React.FC<{ children: React.ReactNode }> = ({ chi
   const [route, setRoute] = useState<AppRoute>('home');
   const [activeGameId, setActiveGameId] = useState<string | null>(null);
 
+  // Helper to ensure all games have current, accurate official cover and hero art
+  const refreshGameImages = (g: Game): Game => {
+    const current = INITIAL_GAMES.find(item => item.id === g.id);
+    if (!current) return g;
+    return {
+      ...g,
+      coverImage: current.coverImage,
+      heroImage: current.heroImage,
+      screenshots: current.screenshots
+    };
+  };
+
   // Wishlist - stored in local browser storage
   const [wishlist, setWishlist] = useState<Game[]>(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.WISHLIST);
       if (saved) {
         const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          return parsed.map(refreshGameImages);
+        }
       }
     } catch {
       // ignore
@@ -80,7 +94,15 @@ export const GameVaultProvider: React.FC<{ children: React.ReactNode }> = ({ chi
   const [library, setLibrary] = useState<LibraryItem[]>(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.LIBRARY);
-      if (saved) return JSON.parse(saved);
+      if (saved) {
+        const parsed: LibraryItem[] = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          return parsed.map(item => ({
+            ...item,
+            game: refreshGameImages(item.game)
+          }));
+        }
+      }
     } catch {
       // ignore
     }
@@ -125,7 +147,12 @@ export const GameVaultProvider: React.FC<{ children: React.ReactNode }> = ({ chi
       const saved = localStorage.getItem(STORAGE_KEYS.QUIZ);
       if (saved) {
         const parsed = JSON.parse(saved);
-        return parsed.results || [];
+        if (Array.isArray(parsed.results)) {
+          return parsed.results.map((r: MatchResult) => ({
+            ...r,
+            game: refreshGameImages(r.game)
+          }));
+        }
       }
     } catch {
       // ignore

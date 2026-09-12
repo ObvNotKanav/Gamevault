@@ -108,6 +108,7 @@ export const GameDetailPage: React.FC = () => {
         <img
           src={game.heroImage || game.coverImage}
           alt={game.title}
+          referrerPolicy="no-referrer"
           className="h-full w-full object-cover object-top filter brightness-85"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0b0f17] via-[#0b0f17]/70 to-black/50" />
@@ -328,6 +329,7 @@ export const GameDetailPage: React.FC = () => {
                   <img
                     src={activeScreenshot || game.screenshots[0]}
                     alt="Gameplay screenshot"
+                    referrerPolicy="no-referrer"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -344,7 +346,7 @@ export const GameDetailPage: React.FC = () => {
                           : 'border-slate-800 opacity-60 hover:opacity-100'
                       }`}
                     >
-                      <img src={s} alt={`Thumbnail ${idx + 1}`} className="h-full w-full object-cover" />
+                      <img src={s} alt={`Thumbnail ${idx + 1}`} referrerPolicy="no-referrer" className="h-full w-full object-cover" />
                     </button>
                   ))}
                 </div>

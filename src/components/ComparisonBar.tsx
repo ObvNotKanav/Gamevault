@@ -24,7 +24,7 @@ export const ComparisonBar: React.FC = () => {
                 key={game.id}
                 className="relative group flex items-center gap-2 rounded-sm bg-[#1c2436] px-2 py-1 border border-slate-700 text-xs shrink-0"
               >
-                <img src={game.coverImage} alt={game.title} className="h-6 w-6 rounded-xs object-cover" />
+                <img src={game.coverImage} alt={game.title} referrerPolicy="no-referrer" className="h-6 w-6 rounded-xs object-cover" />
                 <span className="max-w-28 truncate text-slate-200 font-medium">{game.title}</span>
                 <button
                   type="button"

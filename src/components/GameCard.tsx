@@ -56,6 +56,7 @@ export const GameCard: React.FC<GameCardProps> = ({
             src={game.coverImage}
             alt={game.title}
             loading="lazy"
+            referrerPolicy="no-referrer"
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-gradient-to-t sm:bg-gradient-to-r from-transparent via-transparent to-[#131926]/80" />
@@ -156,6 +157,7 @@ export const GameCard: React.FC<GameCardProps> = ({
           src={game.coverImage}
           alt={game.title}
           loading="lazy"
+          referrerPolicy="no-referrer"
           className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
 

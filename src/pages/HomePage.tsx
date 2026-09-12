@@ -178,6 +178,7 @@ export const HomePage: React.FC = () => {
                     <img
                       src={activeHeroGame.heroImage || activeHeroGame.coverImage}
                       alt={activeHeroGame.title}
+                      referrerPolicy="no-referrer"
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#131926] via-[#131926]/40 to-transparent" />

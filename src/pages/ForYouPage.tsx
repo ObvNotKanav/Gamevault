@@ -265,7 +265,7 @@ export const ForYouPage: React.FC = () => {
                 className="group text-left rounded-md border border-slate-800 bg-[#131926] p-2 hover:border-[#10b981]/50 transition-all"
               >
                 <div className="aspect-16/10 w-full overflow-hidden rounded-xs bg-slate-900 mb-2">
-                  <img src={game.coverImage} alt={game.title} className="h-full w-full object-cover group-hover:scale-105 transition-transform" />
+                  <img src={game.coverImage} alt={game.title} referrerPolicy="no-referrer" className="h-full w-full object-cover group-hover:scale-105 transition-transform" />
                 </div>
                 <h4 className="font-display text-xs font-bold text-white truncate group-hover:text-[#10b981]">
                   {game.title}

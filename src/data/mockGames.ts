@@ -7,12 +7,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'elden-ring',
     tagline: 'Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring.',
     description: 'An expansive fantasy action-RPG adventure in the Lands Between crafted by Hidetaka Miyazaki and George R. R. Martin. Explore vast dungeons, encounter mythic beasts, and customize your build with hundreds of spells, weapons, and skills.',
-    coverImage: 'https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=1200&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg?t=1789162449',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.1920x1080.jpg?t=1789162449',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.1920x1080.jpg?t=1789162449',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_e0316c76f8197405c1312d072b84331dd735d60b.1920x1080.jpg?t=1789162449'
     ],
     releaseDate: '2022-02-25',
     releaseYear: 2022,
@@ -58,11 +59,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'baldurs-gate-3',
     tagline: 'Gather your party and venture back to the Forgotten Realms in an epic story of fellowship and betrayal.',
     description: 'A grand party-based roleplaying game set in the Dungeons & Dragons universe. Your choices shape a story of fellowship, betrayal, sacrifice, survival, and the lure of absolute power with unmatched narrative reactivity.',
-    coverImage: 'https://images.unsplash.com/photo-1563089145-599997674d42?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1200&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg?t=1777363040',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.1920x1080.jpg?t=1777363040',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_cf936d31061b58e98e0c646aee00e6030c410cda.1920x1080.jpg?t=1777363040',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.1920x1080.jpg?t=1777363040'
     ],
     releaseDate: '2023-08-03',
     releaseYear: 2023,
@@ -108,11 +111,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'hades-2',
     tagline: 'Battle beyond the Underworld using dark sorcery to take on the Titan of Time.',
     description: 'The bewitching sequel to Supergiant Games award-winning rogue-like dungeon crawler. As Melinoë, the immortal Princess of the Underworld, harness the full power of Olympus and dark witchcraft in an ever-shifting odyssey.',
-    coverImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?w=1200&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_ef0f63061d0a0a9a7e46f3b84f125d25330e8f19.1920x1080.jpg?t=1779901265',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_f28befd916e59b8bf0a8a801b8a498b8adaa01eb.1920x1080.jpg?t=1779901265',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_b88cb7b48a86f07a7288bf37141f6558279f9bfc.1920x1080.jpg?t=1779901265',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/ss_c8d2b18451a2cc4d5b4fdd78ed84a5e64e051eac.1920x1080.jpg?t=1779901265'
     ],
     releaseDate: '2024-05-06',
     releaseYear: 2024,
@@ -157,11 +162,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'cyberpunk-2077',
     tagline: 'Freedom always comes at a price in the deadly district of Dogtown.',
     description: 'An open-world action-adventure RPG set in the dystopian megalopolis of Night City. Step into the shoes of V, a cyberpunk mercenary caught in a high-stakes espionage thriller involving the New United States of America.',
-    coverImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1563089145-599997674d42?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080.jpg?t=1784714077',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.1920x1080.jpg?t=1784714077',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_af2804aa4bf35d4251043744412ce3b359a125ef.1920x1080.jpg?t=1784714077',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.1920x1080.jpg?t=1784714077'
     ],
     releaseDate: '2023-09-26',
     releaseYear: 2023,
@@ -207,10 +214,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'sea-of-stars',
     tagline: 'A turn-based RPG inspired by the golden classics of the 90s.',
     description: 'Sea of Stars tells the story of two Children of the Solstice who combine the powers of the sun and moon to perform Eclipse Magic, the only force capable of fending off the monstrous creations of the evil alchemist known as The Fleshmancer.',
-    coverImage: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/ss_f756ff477590284c7192ffcef99237de056e4aeb.1920x1080.jpg?t=1780931183',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/ss_c250a7fd789b3cbab5ca8e99e3530cf933656ad1.1920x1080.jpg?t=1780931183',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/ss_889d4ddea7d0884d9d370dd280878570824e68fe.1920x1080.jpg?t=1780931183',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244090/ss_cb9259d083c9d42db9b1f1197e030f8f85d42198.1920x1080.jpg?t=1780931183'
     ],
     releaseDate: '2023-08-29',
     releaseYear: 2023,
@@ -255,10 +265,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'balatro',
     tagline: 'The poker roguelike that took the world by storm.',
     description: 'Balatro is a poker-inspired roguelike deck builder all about creating powerful synergies and winning big. Combine valid poker hands with unique Joker cards in order to trigger varied synergies and score enough chips to beat devious blinds.',
-    coverImage: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/96208723dbedef49d71bf1b0a74aee1689018c50/ss_96208723dbedef49d71bf1b0a74aee1689018c50.1920x1080.jpg?t=1788961800',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/ss_4862112e5030f74a5818cd4c31347d699ac5adf3.1920x1080.jpg?t=1788961800',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/ss_3be65a7dd3be072d567e11883d208861a7e959fa.1920x1080.jpg?t=1788961800',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/ss_e32ac94d7d1d6be7dd015d78f2b52aeb4cc282ed.1920x1080.jpg?t=1788961800'
     ],
     releaseDate: '2024-02-20',
     releaseYear: 2024,
@@ -303,10 +316,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'helldivers-2',
     tagline: 'Spread Managed Democracy across the galaxy with overwhelming firepower.',
     description: 'Join forces with up to three friends and wreak havoc on an alien scourge threatening the safety of your home planet, Super Earth. Unleash massive orbital strikes, heavy artillery, and automated sentries in chaotic third-person squad combat.',
-    coverImage: 'https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/aed08979e15f54798f287dd8820fb5838476b5fa/ss_aed08979e15f54798f287dd8820fb5838476b5fa.1920x1080.jpg?t=1788431424',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/71ef7c65fcf63ff974ce42150190c0420c66c72b/ss_71ef7c65fcf63ff974ce42150190c0420c66c72b.1920x1080.jpg?t=1788431424',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/6c8b61a7c63479b6f526d285af6687a362d5d7ae/ss_6c8b61a7c63479b6f526d285af6687a362d5d7ae.1920x1080.jpg?t=1788431424',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_0c79f56fc7be1bd0102f2ca1c92c8f0900daf4fb.1920x1080.jpg?t=1788431424'
     ],
     releaseDate: '2024-02-08',
     releaseYear: 2024,
@@ -351,10 +367,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'stardew-valley',
     tagline: 'You\'ve inherited your grandfather\'s old farm plot in Pelican Town.',
     description: 'Armed with hand-me-down tools and a few coins, can you learn to live off the land and turn these overgrown fields into a thriving home? Grow crops, raise animals, mine ore, befriend townsfolk, and discover magical secrets.',
-    coverImage: 'https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.1920x1080.jpg?t=1786554168',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_4fa0866709ede3753fdf2745349b528d5e8c4054.1920x1080.jpg?t=1786554168',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_d836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e.1920x1080.jpg?t=1786554168'
     ],
     releaseDate: '2016-02-26',
     releaseYear: 2016,
@@ -400,10 +419,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'outer-wilds',
     tagline: 'An open world mystery about a solar system trapped in an endless time loop.',
     description: 'You\'re the newest recruit of Outer Wilds Ventures, a fledgling space program searching for answers in a strange, constantly evolving solar system. Can the 22-minute time loop be stopped? Discover ancient ruins and venture into deep space.',
-    coverImage: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/ss_ec95a283483f0438be40d033f08b9d956e748d54.1920x1080.jpg?t=1785424341',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/ss_09f0fa8d9b8d7da1408cf4e03303d896cbd9be18.1920x1080.jpg?t=1785424341',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/ss_c624a6b8edca0d451605592edd927dbcc14917a8.1920x1080.jpg?t=1785424341',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/753640/ss_8683942f8d09eec32daeebe94867287424968f97.1920x1080.jpg?t=1785424341'
     ],
     releaseDate: '2019-05-28',
     releaseYear: 2019,
@@ -447,10 +469,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'hollow-knight',
     tagline: 'Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom.',
     description: 'Beneath the fading town of Dirtmouth sleeps a vast, ancient insect kingdom. Many are drawn below the surface, searching for riches, or glory, or answers to old secrets. Explore cavernous ruins, battle tainted creatures and befriend bizarre bugs.',
-    coverImage: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.1920x1080.jpg?t=1776125684',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_d5b6edd94e77ba6db31c44d8a3c09d807ab27751.1920x1080.jpg?t=1776125684',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_a81e4231cc8d55f58b51a4a938898af46503cae5.1920x1080.jpg?t=1776125684',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_62e10cf506d461e11e050457b08aa0e2a1c078d0.1920x1080.jpg?t=1776125684'
     ],
     releaseDate: '2017-02-24',
     releaseYear: 2017,
@@ -495,10 +520,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'disco-elysium',
     tagline: 'A groundbreaking role playing game where you become a detective with a unique skill system.',
     description: 'You\'re a detective with a unique skill system at your disposal and a whole city block to carve your path across. Interrogate unforgettable characters, crack murders, or take bribes. Become a hero or an absolute disaster of a human being.',
-    coverImage: 'https://images.unsplash.com/photo-1563089145-599997674d42?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_b3694e99ffdb686d1bbbbe16a540d3d2ccd509c4.1920x1080.jpg?t=1780913406',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_9125a718ee9ba85386ae5d4eb820f3266073fc97.1920x1080.jpg?t=1780913406',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_4f5fdc3cf42feca8dafb1f7d2910ef96e62708a2.1920x1080.jpg?t=1780913406',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/ss_fc6969799ebf19fd2a2c8a986c9419e053606a17.1920x1080.jpg?t=1780913406'
     ],
     releaseDate: '2021-03-30',
     releaseYear: 2021,
@@ -543,10 +571,12 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'alan-wake-2',
     tagline: 'Monsters wear many faces in the nightmare of the Dark Place.',
     description: 'A string of ritualistic murders threatens Bright Falls, a small-town community surrounded by Pacific Northwest wilderness. Saga Anderson, an accomplished FBI agent, arrives to investigate. Meanwhile, Alan Wake remains trapped in a nightmare reality.',
-    coverImage: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://images.igdb.com/igdb/image/upload/t_1080p/co5z8n.jpg',
+    heroImage: 'https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sccevf.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&auto=format&fit=crop&q=80'
+      'https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sccevf.jpg',
+      'https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sccevg.jpg',
+      'https://images.igdb.com/igdb/image/upload/t_screenshot_huge/sccevh.jpg'
     ],
     releaseDate: '2023-10-27',
     releaseYear: 2023,
@@ -591,10 +621,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'slay-the-spire',
     tagline: 'Craft a unique deck, encounter bizarre creatures, and discover relics of immense power.',
     description: 'We fused card games and roguelikes together to make the best single-player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!',
-    coverImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/ss_c171816f7ecd35b5b46d2fa27532f4c5b8ca3cc5.1920x1080.jpg?t=1774015376',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/ss_01aa3e7759e457bfbf2422f31c325d7b3ba8a6eb.1920x1080.jpg?t=1774015376',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/ss_b757436d08ba08292796bfed9c60e7cc99d5f2c3.1920x1080.jpg?t=1774015376',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/ss_1299d7fe55771cf564848c5046fbef7936178440.1920x1080.jpg?t=1774015376'
     ],
     releaseDate: '2019-01-23',
     releaseYear: 2019,
@@ -638,10 +671,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'hi-fi-rush',
     tagline: 'Feel the beat as wannabe rockstar Chai fights an evil robotic megacorp.',
     description: 'Feel the beat as wannabe rockstar Chai and his ragtag team of allies rebel against an evil tech megacorp with raucous rhythm combat! Everything in the world syncs to the music, from attacks and parries to the environmental factory machinery.',
-    coverImage: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/ss_382e9d5abb00498eee6a86b0366a2db7826268b7.1920x1080.jpg?t=1764916407',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/ss_8a13650ffe930da77593dae80f0118588c46a5ca.1920x1080.jpg?t=1764916407',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/ss_62a7ff68fff7850be6a0784eff41edafd33b2099.1920x1080.jpg?t=1764916407',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817230/ss_7dfaee4616fbed65b2b0fcb82d55dc0a957fd8a5.1920x1080.jpg?t=1764916407'
     ],
     releaseDate: '2023-01-25',
     releaseYear: 2023,
@@ -686,10 +722,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'street-fighter-6',
     tagline: 'Your moment. Your fight. Redefining the fighting game genre.',
     description: 'Powered by Capcom proprietary RE ENGINE, the Street Fighter 6 experience spans across three distinct game modes featuring World Tour, Fighting Ground and Battle Hub. Master the Drive System to parry, rush, and dominate.',
-    coverImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_387137f8cccb048c35a8685634372e97785d40aa.1920x1080.jpg?t=1785737403',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_a381f1b3b450c18900d47b991ce8e7456e9cdba5.1920x1080.jpg?t=1785737403',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_f62ce93269a6d8e0027853358af4d6368e2c4b93.1920x1080.jpg?t=1785737403',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/ss_d186566a92ada8cdb08b04769a8c95cd1e380006.1920x1080.jpg?t=1785737403'
     ],
     releaseDate: '2023-06-02',
     releaseYear: 2023,
@@ -734,10 +773,13 @@ export const INITIAL_GAMES: Game[] = [
     slug: 'dave-the-diver',
     tagline: 'Deep-sea exploration by day, sushi restaurant management by night.',
     description: 'A casual, single-player adventure RPG featuring deep-sea exploration and fishing during the day and sushi restaurant management at night. Join Dave and his quirky friends as they uncover the secrets of the mysterious Blue Hole.',
-    coverImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&auto=format&fit=crop&q=80',
-    heroImage: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1600&auto=format&fit=crop&q=80',
+    coverImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/capsule_616x353.jpg',
+    heroImage: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/library_hero.jpg',
     screenshots: [
-      'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=1200&auto=format&fit=crop&q=80'
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/ss_7c86a17d545b6260ecdcfdd62622e49dcc9011bd.1920x1080.jpg?t=1786442860',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/ss_783e1f6c2d4c358fb494d055c47c0e888922abd5.1920x1080.jpg?t=1786442860',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/ss_6eac5a3b59e181d1ffa26757b041be521bfe1779.1920x1080.jpg?t=1786442860',
+      'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1868140/ss_bc9150385c6fcd41ac7195be36597469f54a792c.1920x1080.jpg?t=1786442860'
     ],
     releaseDate: '2023-06-28',
     releaseYear: 2023,
